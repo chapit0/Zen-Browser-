@@ -96,3 +96,8 @@ transition: all 0.0s ease-in-out !important;
   padding-bottom: 8px !important;
   margin-bottom: 8px !important;
 }
+
+/* Hide the sidebar scroll bar */
+#zen-tabs-wrapper {
+        scrollbar-width: none !important;
+}
