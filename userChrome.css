@@ -1,103 +1,136 @@
 /* --- URL BAR --- */
 /* Hides the container info in url-bar */
-#urlbar #userContext-label {
-  display: none !important;
-}
-#urlbar #userContext-indicator {
-  display: none !important;
-}
-#urlbar #userContext-icons {
+#userContext-label,
+#userContext-indicator,
+#userContext-icons {
   display: none !important;
 }
 
-/* Removes Shield button*/
-#urlbar #tracking-protection-icon-container {
+/* Removes Shield button */
+#tracking-protection-icon-container {
   display: none !important;
 }
 
-/* Removes Bookmarks button*/
-#urlbar #star-button-box {
+/* Removes Bookmarks button */
+#star-button-box {
   display: none !important;
 }
 
-/* Removes Permission button*/
-#urlbar #identity-permission-box{
+/* Removes Permission button */
+#identity-permission-box{
   display: none !important;
 }
 
-/* Removes Identity button*/
-#urlbar #identity-box{
+/* Removes Identity button */
+#identity-box{
   display: none !important;
 }
 
-/* Centers the url text.*/
-#urlbar #urlbar-input{
+/* Removes the Zoom button in the url */
+#urlbar-zoom-button{
+  display: none !important;
+}
+
+/* Centers the url text */
+#urlbar-input{
   text-align: center !important;
 }
 
-/* Transparent url bar */
+/* Transparent url bar 
 #urlbar[open][zen-floating-urlbar="true"] {
      #urlbar-background {
          background-color: light-dark(color-mix(in srgb, #fdfdfd 75%, transparent), color-mix(in srgb, #0e0e0e 75%, transparent)) !important;
     }
 } 
 
-/* URLBar Background Blur */
+/* URLBar Background Blur 
 #browser:has(#urlbar[open][zen-floating-urlbar="true"]) .browserContainer {
 pointer-events: none;
 filter: blur(10px) brightness(70%) saturate(50%) opacity(70%) !important;
 scale: 1.1 !important; /* Zoom effect, remove the // to enable */
 }
+/*
 #browser .browserContainer {
 transition: all 0.0s ease-in-out !important;
 } 
 
-/* --- REMOVE BUTTONS --- */
-/* Hide plugins button.*/
-#unified-extensions-button{
+/* ---| REMOVE BUTTONS |--- */
+/* Hides plugins button */
+#unified-extensions-button {
   display: none !important;
 }
 
-/* Hides status bar*/
+#unified-extensions-button,
+#unified-extensions-area {
+  display: none !important;
+}
+
+/* Hides status bar */
 #statuspanel{
     display: none !important;
 }
 
-/* Hides boder highlight on active tab while sin split view */
+/* Hides boder highlight on active tab while sin split view
 #tabbrowser-tabpanels[zen-split-view="true"].browserSidebarContainer.deck-selected {
     outline: var(--zen-colors-border) !important;
 }
 
-/* Hide Back and Forward buttons */
+/* Hide Back and Forward buttons
 #back-button[disabled], #forward-button[disabled] {
     display: none !important;
 }
 
 
-/* --- TAB PREVIEW --- */
+/* --- TAB PREVIEW --- 
 #tab-preview-panel {
   aspect-ratio: 3 / 2 !important; /* Sets the aspect ratio to 2:1 */
 }
 
-/* Removes the url on the the tab preview */
+/* Removes the url on the the tab preview
 .tab-preview-uri {
     display: none !important;
 }
 
-/* --- SIDE BAR --- */
-/* Removes the worspace button unde the essentials */
+/* ---| SIDE BAR |--- */
+
+/* Removes the worspace button unde the essentials 
 #zen-current-workspace-indicator-container{
     display: none !important;
 }
 
-/* Adds line under essentials */
+/* Adds line under essentials
 #zen-essentials-container:has(tab) {
   border-bottom: 1px solid #ffffff13;
   padding-bottom: 8px !important;
   margin-bottom: 8px !important;
 }
 
-/* Hide the sidebar scroll bar */
+/* Hide the sidebar scroll bar
 #zen-tabs-wrapper {
         scrollbar-width: none !important;
+}
+
+/* ---| BOOKMARK MENU|--- */
+#BMB_bookmarksToolbar {
+  display: none !important;
+}
+
+/* Removes the Search bookmarks from the Bookmarks menu */
+#BMB_searchBookmarks {
+  display: none !important;
+}
+
+/* Removes the Manage bookmarks on the top from the Bookmarks menu */
+#BMB_bookmarksShowAllTop, menuseparator {
+  display: none !important;
+}
+
+/* Removes the Manage bookmarks on the bottom from the Bookmarks menu */
+#BMB_bookmarksShowAll, menuseparator {
+  display:none !important;
+}
+
+/* Removes the View bookmarks sidebar from the Bookmarks menu */
+#BMB_viewBookmarksSidebar {
+  display: none !important;
 }
