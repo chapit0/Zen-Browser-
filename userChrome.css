@@ -47,8 +47,10 @@
 #browser:has(#urlbar[open][zen-floating-urlbar="true"]) .browserContainer {
 pointer-events: none;
 filter: blur(10px) brightness(70%) saturate(50%) opacity(70%) !important;
-scale: 1.1 !important; /* Zoom effect, remove the // to enable */
-}
+//scale: 1.1 !important; 
+}*/
+/* Zoom effect, remove the // to enable */
+
 /*
 #browser .browserContainer {
 transition: all 0.0s ease-in-out !important;
@@ -83,8 +85,8 @@ transition: all 0.0s ease-in-out !important;
 
 /* --- TAB PREVIEW --- 
 #tab-preview-panel {
-  aspect-ratio: 3 / 2 !important; /* Sets the aspect ratio to 2:1 */
-}
+  aspect-ratio: 3 / 2 !important; /* Sets the aspect ratio to 2:1 
+}*/
 
 /* Removes the url on the the tab preview
 .tab-preview-uri {
@@ -132,5 +134,10 @@ transition: all 0.0s ease-in-out !important;
 
 /* Removes the View bookmarks sidebar from the Bookmarks menu */
 #BMB_viewBookmarksSidebar {
+  display: none !important;
+}
+
+/* Removes the split view controls */
+.zen-view-splitter-header-container {
   display: none !important;
 }
