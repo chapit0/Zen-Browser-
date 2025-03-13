@@ -71,9 +71,14 @@ CSS code to modify the look of the Zen Browser
 
 </div>
 
+<div align="center">
+  
 **Simpler bookmarks menu.**
 
 ![bookmarks](https://github.com/chapit0/Zen-Browser-/blob/6bab99f6a1216710002389401db4c708dec7eda8/bookmarks.png)
+  
+</div>
+
 ```css
 #BMB_bookmarksToolbar {
   display: none !important;
@@ -127,9 +132,14 @@ CSS code to modify the look of the Zen Browser
 }
 ```
 ---
+<div align="center">
+  
 **Removes the split view controls.**
 
 ![splitView](https://github.com/chapit0/Zen-Browser-/blob/5f0ec9e6897ac8f71020eb1a07c917dcbf2a543f/splitView.png)
+
+</div>
+
 ```css
 /* Removes the split view controls */
 .zen-view-splitter-header-container {
