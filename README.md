@@ -139,6 +139,14 @@ CSS code to modify the look of the Zen Browser
 
 </div>
 
+---
+**Removes the (x) on tabs when the sidebar is hidden**
+```css
+image.tab-close-button {
+  display: none !important;
+}
+```
+---
 **Remove the plugins button.**
 ```css
 /* Hides plugins button */
