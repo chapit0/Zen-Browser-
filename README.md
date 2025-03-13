@@ -7,7 +7,14 @@ CSS code to modify the look of the Zen Browser
 
 </div>
 
+<div align="center">
+
 **Hides the container info in url-bar.**
+
+![Container](https://github.com/chapit0/Zen-Browser-/blob/40edf7a0b95704430f2a46b46c89255f3f1a43a3/container.png)
+
+</div>
+
 ```css
 /* Hides the container info in url-bar */
 #userContext-label,
@@ -25,7 +32,14 @@ CSS code to modify the look of the Zen Browser
 }
 ```
 ---
+<div align="center">
+
 **Hides the bookmarks button from the url-bar.**
+
+![bookmarks](https://github.com/chapit0/Zen-Browser-/blob/40edf7a0b95704430f2a46b46c89255f3f1a43a3/bookmarks.png)
+
+</div>
+
 ```css
 /* Removes Bookmarks button */
 #star-button-box {
@@ -41,7 +55,14 @@ CSS code to modify the look of the Zen Browser
 }
 ```
 ---
-**Hides the shield identity from the url-bar.**
+<div align="center">
+  
+**Hides the identity from the url-bar.**
+
+![Identity](https://github.com/chapit0/Zen-Browser-/blob/40edf7a0b95704430f2a46b46c89255f3f1a43a3/identity.png)
+
+</div>
+
 ```css
 /* Removes Identity button */
 #identity-box{
@@ -57,7 +78,13 @@ CSS code to modify the look of the Zen Browser
 }
 ```
 ---
+<div align="center">
+  
 **Centers the text on the url-bar.**
+
+![Centertexturl](https://github.com/chapit0/Zen-Browser-/blob/40edf7a0b95704430f2a46b46c89255f3f1a43a3/centerUrlText.png)
+</div>
+
 ```css
 /* Centers the url text */
 #urlbar-input{
@@ -75,7 +102,7 @@ CSS code to modify the look of the Zen Browser
   
 **Simpler bookmarks menu.**
 
-![bookmarks](https://github.com/chapit0/Zen-Browser-/blob/6bab99f6a1216710002389401db4c708dec7eda8/bookmarks.png)
+![bookmarks](https://github.com/chapit0/Zen-Browser-/blob/40edf7a0b95704430f2a46b46c89255f3f1a43a3/bookmarksMenu.png)
   
 </div>
 
@@ -136,7 +163,7 @@ CSS code to modify the look of the Zen Browser
   
 **Removes the split view controls.**
 
-![splitView](https://github.com/chapit0/Zen-Browser-/blob/5f0ec9e6897ac8f71020eb1a07c917dcbf2a543f/splitView.png)
+![splitView](https://github.com/chapit0/Zen-Browser-/blob/40edf7a0b95704430f2a46b46c89255f3f1a43a3/splitView.png)
 
 </div>
 
